@@ -10,3 +10,15 @@ This project aims to estimate the production cost of physical pieces from images
 - Detect contours and compute the total length assuming a fixed line thickness.
 - Calculate estimated material cost based on predefined unit prices.
 - Visualize intermediate steps: original image, frequency spectrum, reconstruction, and final shape.
+
+## Preprocessing 
+
+The `preprocessing.ipynb` notebook focuses on preparing input images for the Fourier-based cost estimation pipeline. It applies a series of computer vision techniques such as grayscale conversion, adaptive thresholding, and morphological operations to isolate the primary figure from background noise.
+
+The result is a clean, binarized image that highlights the main shape to be processed in the following Fourier Transform step.
+
+**Example Output:**
+<img width="645" height="707" alt="character_result" src="https://github.com/user-attachments/assets/8656ac83-8e6b-41ec-bc53-bb2fea88d8a0" />
+
+This step is essential to improve the accuracy of contour detection, shape reconstruction, and cost estimation in the later stages of the project.
+
