@@ -11,6 +11,28 @@ This project aims to estimate the production cost of physical pieces from images
 - Calculate estimated material cost based on predefined unit prices.
 - Visualize intermediate steps: original image, frequency spectrum, reconstruction, and final shape.
 
+## Project Structure
+
+Fourier_Cost_Estimator/
+
+┣ notebooks/
+
+┣  └── preprocessing.ipynb
+
+┣ outputs/
+
+┣  └── outputs_preprocessing/ #results of preprocessing progess
+
+┣ src/
+
+┣  └── preprocessing.py
+
+┣  scripts/
+
+┣ README.md
+
+└── requirements.txt
+
 ## Preprocessing 
 
 The `preprocessing.ipynb` notebook focuses on preparing input images for the Fourier-based cost estimation pipeline. It applies a series of computer vision techniques such as grayscale conversion, adaptive thresholding, and morphological operations to isolate the primary figure from background noise.
