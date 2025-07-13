@@ -19,9 +19,13 @@ Fourier_Cost_Estimator/
 
 ┣  └── preprocessing.ipynb
 
+┣  └── fft_analysis.ipynb
+
 ┣ outputs/
 
 ┣  └── outputs_preprocessing/ #results of preprocessing progess
+
+┣  └── outputs_fft_analysis/ #reconstructed images
 
 ┣ src/
 
@@ -43,4 +47,26 @@ The result is a clean, binarized image that highlights the main shape to be proc
 <img width="645" height="707" alt="character_result" src="https://github.com/user-attachments/assets/8656ac83-8e6b-41ec-bc53-bb2fea88d8a0" />
 
 This step is essential to improve the accuracy of contour detection, shape reconstruction, and cost estimation in the later stages of the project.
+
+## FFT Analysis Notebook
+
+The fft_analysis.ipynb notebook performs the core frequency-based analysis within the cost estimation pipeline. It applies a 2D Fast Fourier Transform (FFT) to the preprocessed image in order to convert the spatial domain into the frequency domain.
+
+Key processes include:
+
+Computing the Fourier Transform of the binary image to obtain its frequency spectrum.
+
+Visualizing the magnitude spectrum to identify high and low frequency components.
+
+Applying frequency filtering to isolate relevant components, removing noise or insignificant frequencies.
+
+Performing an inverse FFT (iFFT) to reconstruct the image based on the filtered spectrum.
+
+Preparing the reconstructed image for contour detection in the subsequent steps.
+
+This notebook is essential to enhance the accuracy of shape reconstruction and optimize cost estimation by reducing background noise and isolating the figure’s structural frequencies.
+
+<img width="1000" height="400" alt="results_fft_analysis" src="https://github.com/user-attachments/assets/739d022f-86d1-4f92-8acc-b3e13ca03803" />
+
+
 
