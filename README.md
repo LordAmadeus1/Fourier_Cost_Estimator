@@ -17,9 +17,9 @@ Fourier_Cost_Estimator/
 
 ┣ notebooks/
 
-┣  └── preprocessing.ipynb
+┣  └── 01_preprocessing.ipynb
 
-┣  └── fft_analysis.ipynb
+┣  └── 02_fft_analysis.ipynb
 
 ┣ outputs/
 
