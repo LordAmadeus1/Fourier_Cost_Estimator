@@ -21,6 +21,8 @@ Fourier_Cost_Estimator/
 
 ┣  └── 02_fft_analysis.ipynb
 
+┣  └── 03_skeleton_analysis.ipynb
+
 ┣ outputs/
 
 ┣  └── outputs_preprocessing/ #results of preprocessing progess
