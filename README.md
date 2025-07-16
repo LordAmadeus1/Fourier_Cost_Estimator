@@ -71,4 +71,19 @@ This notebook is essential to enhance the accuracy of shape reconstruction and o
 <img width="1000" height="400" alt="results_fft_analysis" src="https://github.com/user-attachments/assets/739d022f-86d1-4f92-8acc-b3e13ca03803" />
 
 
+## Skeleton Analysis
+
+The 03_skeleton_analysis.ipynb notebook performs structural simplification of the preprocessed shape using morphological skeletonization. This step aims to reduce the shape to its essential linear structure while preserving topology.
+
+Key processes included:
+
+- Applying binary skeletonization to extract the central "spine" of the figure.
+- Visualizing both the original and skeletonized versions to validate correctness
+- Saving the resulting skeleton image for later use in length estimation and cost calculation
+
+This process is crucial for simplifying the geometry before estimating material usage based on shape length and complexity.
+
+<img width="1000" height="500" alt="ske_compare_final" src="https://github.com/user-attachments/assets/af97cc33-b99e-4a2a-992e-535a40f92b8a" />
+
+
 
