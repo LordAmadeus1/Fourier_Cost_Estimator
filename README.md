@@ -46,6 +46,7 @@ The `preprocessing.ipynb` notebook focuses on preparing input images for the Fou
 The result is a clean, binarized image that highlights the main shape to be processed in the following Fourier Transform step.
 
 **Example Output:**
+
 <img width="645" height="707" alt="character_result" src="https://github.com/user-attachments/assets/8656ac83-8e6b-41ec-bc53-bb2fea88d8a0" />
 
 This step is essential to improve the accuracy of contour detection, shape reconstruction, and cost estimation in the later stages of the project.
