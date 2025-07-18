@@ -17,11 +17,13 @@ Fourier_Cost_Estimator/
 
 ┣ notebooks/
 
-┣  └── 01_preprocessing.ipynb
+┣  └── preprocessing_01.ipynb
 
-┣  └── 02_fft_analysis.ipynb
+┣  └── fft_analysis_02.ipynb
 
-┣  └── 03_skeleton_analysis.ipynb
+┣  └── skeleton_analysis_03.ipynb
+
+┣  └── cost_calculation_04.ipynb
 
 ┣ outputs/
 
@@ -32,6 +34,10 @@ Fourier_Cost_Estimator/
 ┣ src/
 
 ┣  └── preprocessing.py
+
+┣  data/
+
+┣  └── materials_price.csv
 
 ┣  scripts/
 
