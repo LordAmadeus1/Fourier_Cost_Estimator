@@ -1,0 +1,11 @@
+material,density_g_cm3,price_per_g_eur,type
+PLA,"1,24","0,03",plastic
+ABS,"1,04","0,03",plastic
+PETG,"1,27","0,035",plastic
+Resin,"1,1","0,05",resin
+Silver,"10,49","1,14",metal
+Gold,"19,32","99,26",metal
+Steel,"7,8","0,000877",metal
+Wood fil,"1,28","0,03",plastic
+Platinum,"21,45","43,17",metal
+Paladium,"12,02","35,69",metal
