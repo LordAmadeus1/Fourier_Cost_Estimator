@@ -11,7 +11,7 @@ This project aims to estimate the production cost of physical pieces from images
 - Calculate estimated material cost based on predefined unit prices.
 - Visualize intermediate steps: original image, frequency spectrum, reconstruction, and final shape.
 
-## Project Structure
+## Project Structure  
 
 Fourier_Cost_Estimator/
 
